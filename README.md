@@ -4,17 +4,24 @@ Builded a file-based key-value data store that supports the basic CRD ( Create, 
 
 ## Instructions 
 
-### create operation
-
-  create(key, value) 
-  or
-  create(key, value, ttl)  // ttl => (time-to-live)- must be in seconds
+### `To initiate`
   
-### read operation
+  obj_Name = DataStore() <br>
+  obj_Name = DataStore('file_path') <br>
+  where file_path is optional
+  
+### `create operation`
+
+  create(key, value) <br>
+  or <br>
+  create(key, value, ttl) <br>
+  where ttl => (time-to-live)- must be in seconds
+  
+### `read operation`
   
   read(key)
    
-### delete operation
+### `delete operation`
   
   delete(key)
   
