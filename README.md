@@ -21,14 +21,14 @@ Builded a file-based key-value data store that supports the basic CRD ( Create, 
 
 ## About 'Errors'
   <ul>
-    <li><b>Empty File</b> -\
+    <li><b>Empty File</b> -<br>
           Calls read/delete operation when file doesn't have any values (especially at very first instance without creating any values before).</li>
-    <li><b>Key or Value size beyond the limit</b> -\
+    <li><b>Key or Value size beyond the limit</b> -<br>
           Raises When Key or Value size beyond the given constraints.</li>
-    <li><b>Invalid Key</b> -\
+    <li><b>Invalid Key</b> -<br>
           Raises if given key doesn't exists.
     </li>
-    <li><b>Key already exists</b> -\
+    <li><b>Key already exists</b> -<br>
           Raises when key already exists in the file.
     </li>
   </ul>
